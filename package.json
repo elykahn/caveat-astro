@@ -16,7 +16,7 @@
     "update-theme": "tsx scripts/update-theme.ts"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/mdx": "^4.3.3",
     "@astrojs/sitemap": "^3.4.1",
     "@playform/inline": "^0.1.2",
     "astro": "^5.11.1",
