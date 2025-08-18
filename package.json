@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
-    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/sitemap": "^3.5.0",
     "@playform/inline": "^0.1.2",
     "astro": "^5.11.1",
     "astro-og-canvas": "^0.7.0",
