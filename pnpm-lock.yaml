@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@astrojs/mdx':
         specifier: ^4.3.0
-        version: 4.3.0(astro@5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3))
+        version: 4.3.0(astro@5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3))
       '@astrojs/sitemap':
-        specifier: ^3.4.1
-        version: 3.4.1
+        specifier: ^3.5.1
+        version: 3.5.1
       '@playform/inline':
         specifier: ^0.1.2
-        version: 0.1.2(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
+        version: 0.1.2(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
       astro:
         specifier: ^5.11.1
-        version: 5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
+        version: 5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
       astro-og-canvas:
         specifier: ^0.7.0
-        version: 0.7.0(astro@5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3))
+        version: 0.7.0(astro@5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3))
       canvaskit-wasm:
         specifier: ^0.40.0
         version: 0.40.0
@@ -109,8 +109,8 @@ packages:
     resolution: {integrity: sha512-q8VwfU/fDZNoDOf+r7jUnMC2//H2l0TuQ6FkGJL8vD8nw/q5KiL3DS1KKBI3QhI9UQhpJ5dc7AtqfbXWuOgLCQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
 
-  '@astrojs/sitemap@3.4.1':
-    resolution: {integrity: sha512-VjZvr1e4FH6NHyyHXOiQgLiw94LnCVY4v06wN/D0gZKchTMkg71GrAHJz81/huafcmavtLkIv26HnpfDq6/h/Q==}
+  '@astrojs/sitemap@3.5.1':
+    resolution: {integrity: sha512-uX5z52GLtQTgOe8r3jeGmFRYrFe52mdpLYJzqjvL1cdy5Kg3MLOZEvaZ/OCH0fSq0t7e50uJQ6oBMZG0ffszBg==}
 
   '@astrojs/telemetry@3.3.0':
     resolution: {integrity: sha512-UFBgfeldP06qu6khs/yY+q1cDAaArM2/7AEIqQ9Cuvf7B1hNLq0xDrZkct+QoIGyjq56y8IaE2I3CTvG99mlhQ==}
@@ -783,8 +783,8 @@ packages:
   '@types/node@22.13.14':
     resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
 
-  '@types/node@24.0.13':
-    resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
+  '@types/node@24.3.0':
+    resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
@@ -2218,8 +2218,8 @@ packages:
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-  undici-types@7.8.0:
-    resolution: {integrity: sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==}
+  undici-types@7.10.0:
+    resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
   unicode-properties@1.4.1:
     resolution: {integrity: sha512-CLjCCLQ6UuMxWnbIylkisbRj31qxHPAurvena/0iwSVbQ2G1VY5/HjV0IRabOEbDHlzZlRdCrD4NhB0JtU40Pg==}
@@ -2487,12 +2487,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.0(astro@5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3))':
+  '@astrojs/mdx@4.3.0(astro@5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.2
       '@mdx-js/mdx': 3.1.0(acorn@8.15.0)
       acorn: 8.15.0
-      astro: 5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
+      astro: 5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -2510,7 +2510,7 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/sitemap@3.4.1':
+  '@astrojs/sitemap@3.5.1':
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
@@ -2898,10 +2898,10 @@ snapshots:
 
   '@pkgr/core@0.2.7': {}
 
-  '@playform/inline@0.1.2(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)':
+  '@playform/inline@0.1.2(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)':
     dependencies:
       '@playform/pipe': 0.1.3
-      astro: 5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
+      astro: 5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
       beasties: 0.2.0
       deepmerge-ts: 7.1.5
     transitivePeerDependencies:
@@ -3062,7 +3062,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 24.0.13
+      '@types/node': 24.3.0
 
   '@types/hast@3.0.4':
     dependencies:
@@ -3090,13 +3090,13 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/node@24.0.13':
+  '@types/node@24.3.0':
     dependencies:
-      undici-types: 7.8.0
+      undici-types: 7.10.0
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.3.0
 
   '@types/unist@2.0.11': {}
 
@@ -3257,14 +3257,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro-og-canvas@0.7.0(astro@5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)):
+  astro-og-canvas@0.7.0(astro@5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)):
     dependencies:
-      astro: 5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
+      astro: 5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3)
       canvaskit-wasm: 0.39.1
       deterministic-object-hash: 2.0.2
       entities: 4.5.0
 
-  astro@5.11.1(@types/node@24.0.13)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3):
+  astro@5.11.1(@types/node@24.3.0)(rollup@4.45.0)(tsx@4.20.3)(typescript@5.8.3):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
@@ -3319,8 +3319,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.16.0
       vfile: 6.0.3
-      vite: 6.3.5(@types/node@24.0.13)(tsx@4.20.3)
-      vitefu: 1.1.1(vite@6.3.5(@types/node@24.0.13)(tsx@4.20.3))
+      vite: 6.3.5(@types/node@24.3.0)(tsx@4.20.3)
+      vitefu: 1.1.1(vite@6.3.5(@types/node@24.3.0)(tsx@4.20.3))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -5209,7 +5209,7 @@ snapshots:
 
   undici-types@6.20.0: {}
 
-  undici-types@7.8.0: {}
+  undici-types@7.10.0: {}
 
   unicode-properties@1.4.1:
     dependencies:
@@ -5315,7 +5315,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.5(@types/node@24.0.13)(tsx@4.20.3):
+  vite@6.3.5(@types/node@24.3.0)(tsx@4.20.3):
     dependencies:
       esbuild: 0.25.6
       fdir: 6.4.6(picomatch@4.0.2)
@@ -5324,13 +5324,13 @@ snapshots:
       rollup: 4.45.0
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.0.13
+      '@types/node': 24.3.0
       fsevents: 2.3.3
       tsx: 4.20.3
 
-  vitefu@1.1.1(vite@6.3.5(@types/node@24.0.13)(tsx@4.20.3)):
+  vitefu@1.1.1(vite@6.3.5(@types/node@24.3.0)(tsx@4.20.3)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@24.0.13)(tsx@4.20.3)
+      vite: 6.3.5(@types/node@24.3.0)(tsx@4.20.3)
 
   web-namespaces@2.0.1: {}
 
